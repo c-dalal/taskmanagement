@@ -1,0 +1,162 @@
+/* Parent div */
+.parent-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;        /* Makes sure it takes up the full height of the viewport */
+  background-color: #f0f0f0; /* Optional, for contrast */
+  height: 100px;
+}
+
+/* Child div */
+.todo-container {
+  max-width: 600px;
+  width: 100%;  /* Ensures the width doesn't exceed 600px */
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+h2{
+  display: block;
+  background-color: blue;
+  padding: 15px ;
+  color: white;
+}
+
+/* Container for the input and icon */
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* Adjust the width if needed */
+  margin: 20px auto; /* Center horizontally */
+}
+
+/* Styling the search icon */
+.search-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0a58ca; /* Blue color for the icon */
+  font-size: 20px;
+}
+
+/* Styling the input field */
+.search-container input[type="text"] {
+  width: 85%;
+  padding: 10px 15px;
+  padding-left: 40px; /* Space for the icon */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners similar to your example */
+  outline: none;
+  box-shadow: none;
+
+}
+
+/* General container for tabs */
+.tabs{
+  background-color: #ccc;
+  display: block;
+  width: 85%;
+  height: 100px;
+  margin-left: 35px;
+}
+
+.tabs div{
+  background-color: bisque;
+  margin: 5px 5px 5px 5px;
+  height: 30px;
+}
+
+.add-task{
+  max-width: 600px;
+  height: 45%;
+  width: 100%;  /* Ensures the width doesn't exceed 600px */
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.task input,
+.task textarea {
+  width: 60%; /* Adjust the width as needed */
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.buttons{
+  margin-left: 32%;
+}
+
+.edit-task{
+  max-width: 600px;
+  height: 50%;
+  width: 100%;  /* Ensures the width doesn't exceed 600px */
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.edit-tasks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.edit-tasks input,
+.edit-tasks textarea
+{
+  width: 60%; /* Adjust the width as needed */
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.update-state{
+  width: 60%; /* Adjust the width as needed */
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
